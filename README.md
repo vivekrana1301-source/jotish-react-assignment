@@ -1,16 +1,30 @@
-# React + Vite
+# Jotish ReactJS Internship Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 👨‍💻 Author
+**Vivek Singh Rana**
 
-Currently, two official plugins are available:
+## ⚙️ Technologies Used
+- ReactJS (Vite)
+- Tailwind CSS
+- Recharts (for graphs)
+- React Router DOM
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📄 Pages
+1. **Login Page** – Username: `testuser`, Password: `Test123`
+2. **List Page** – Displays mock employee data
+3. **Details Page** – Shows details of a selected employee
+4. **Photo Result Page** – Placeholder for image upload
+5. **Bar Graph Page** – Displays employee salaries using Recharts
+6. **Map Page** – (Optional) City plotting based on response data
 
-## React Compiler
+## 🧠 Note
+The provided REST API endpoint returned *400 Bad Request*,  
+so mock data was used to complete the functionality.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Screenshots
+All screenshots are available in the `/screenshots` folder.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Run Locally
+```bash
+npm install
+npm run dev
